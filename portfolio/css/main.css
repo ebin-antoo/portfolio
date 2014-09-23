@@ -42,3 +42,33 @@ html, body
 }
 /*-----------------------------------------EO-- Parallex Effect ---------------------------------------------*/
 
+/*--------------------------------------------- Navigation --------------------------------------------------*/
+#nav 
+{
+    width: 100%;
+}
+
+#nav.affix-top 
+{
+   position: absolute;
+   top:0;
+   left:0;
+   z-index:10;
+   height:54px;
+   background-color:transparent;
+   border:0;
+}
+
+#nav.affix 
+{
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+button#icon-bar
+{
+    background: none;
+}
+/*-----------------------------------------EO-- Navigation --------------------------------------------------*/
