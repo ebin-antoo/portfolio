@@ -1,4 +1,5 @@
-﻿/* background setup */
+﻿/*--------------------------------------------- Parallex Effect ---------------------------------------------*/
+/* background setup */
 .background {
     background-repeat:no-repeat;
     /* custom background-position */
@@ -39,3 +40,5 @@ html, body
     vertical-align:middle;
     text-align:center;
 }
+/*-----------------------------------------EO-- Parallex Effect ---------------------------------------------*/
+
