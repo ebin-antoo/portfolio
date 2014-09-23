@@ -1,4 +1,5 @@
-﻿/* detect touch */
+﻿/**-------------------------------------------------- Parallax Effect----------------------------**/
+/* detect touch */
 if ("ontouchstart" in window) {
     document.documentElement.className = document.documentElement.className + " touch";
 }
@@ -97,32 +98,33 @@ if (!$("html").hasClass("touch")) {
     $(window).scroll(parallaxPosition);
     parallaxPosition();
 }
+/**-----------------------------------------------EO-- Parallax Effect----------------------------**/
 
-/******************************************************************************************/
-/* affix the navbar after scroll below main */
+/*************************************************** Nav Bar ****************************************/
+//affix the navbar after scroll below main 
 $('#nav').affix({
     offset: {
-        top: $('.main').height()-$('#nav').height()
+        top: $('.main').height() - $('#nav').height()
     }
 });
 
-
-/* highlight the top nav as scrolling occurs */
+//highlight the top nav as scrolling occurs 
 $('body').scrollspy({ target: '#nav' })
 
-/* smooth scrolling for scroll to top */
-$('.scroll-top').click(function(){
-  $('body,html').animate({scrollTop:0},1000);
+//smooth scrolling for scroll to top 
+$('.scroll-top').click(function () {
+    $('body,html').animate({ scrollTop: 0 }, 1000);
 })
 
-/* smooth scrolling for nav sections */
-$('#nav .navbar-nav li>a').click(function(){
-  var link = $(this).attr('href');
-  var posi = $(link).offset().top;
-  $('body,html').animate({scrollTop:posi},700);
+//smooth scrolling for nav sections 
+$('#nav .navbar-nav li>a').click(function () {
+    var link = $(this).attr('href');
+    var posi = $(link).offset().top;
+    $('body,html').animate({ scrollTop: posi }, 700);
 });
+/***********************************************EO   Nav Bar ****************************************/
 
-
-
-
-
+//icon bar
+$("button#icon-bar").on("click", function () {
+    $("div.navbar-header  i").toggle();
+});
