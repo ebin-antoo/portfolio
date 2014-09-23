@@ -78,8 +78,10 @@
     <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="bootstrap-3.2.0-dist\js\bootstrap.js" />
     <Content Include="bootstrap-3.2.0-dist\js\bootstrap.min.js" />
+    <Content Include="css\animate.css" />
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
+    <Content Include="images\cute-blur-wallpaper-26341-27032-hd-wallpapers.jpg" />
     <Content Include="index.html" />
     <Content Include="css\reset.css" />
     <Content Include="js\main.js" />
@@ -88,9 +90,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

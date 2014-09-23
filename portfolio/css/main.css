@@ -8,12 +8,14 @@
 }
 
 /* fullscreen setup */
-html, body {
+html, body 
+{
     /* give this to all tags from html to .fullscreen */
     height:100%;
 }
 .fullscreen,
-.content-a {
+.content-a 
+{
     width:100%;
     min-height:100%;
 }
@@ -26,10 +28,12 @@ html, body {
 }
 
 /* content centering styles */
-.content-a {
+.content-a 
+{
     display:table;
 }
-.content-b {
+.content-b 
+{
     display:table-cell;
     position:relative;
     vertical-align:middle;
